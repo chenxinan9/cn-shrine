@@ -1,6 +1,6 @@
 ---
 name: 调研多维度
-description: Pangu说"调研" / "调研一下" / "对比 X vs Y" / "全景对比" / "深扫" / 任务显性"详细/全套/可见/每步文档"时, AI 自动跑 7 维度强制扫, 不让Pangu再选范围 / 平台 / 深度 / 颗粒。基于 2026-05-17 监督员诊断教训:开发第 1 次只比 4 维度,漏平台维度 → Pangu"对比难道是单一平台吗?" Use when: research / X vs Y / panorama scan, 7-dimension forced scan, no platform-skipping.
+description: user说"调研" / "调研一下" / "对比 X vs Y" / "全景对比" / "深扫" / 任务显性"详细/全套/可见/每步文档"时, AI 自动跑 7 维度强制扫, 不让user再选范围 / 平台 / 深度 / 颗粒。基于 2026-05-17 监督员诊断教训:开发第 1 次只比 4 维度,漏平台维度 → user"对比难道是单一平台吗?" Use when: research / X vs Y / panorama scan, 7-dimension forced scan, no platform-skipping.
 ---
 
 # 调研多维度(多源 + 多平台 + 真验证 强制扫)
@@ -9,8 +9,8 @@ description: Pangu说"调研" / "调研一下" / "对比 X vs Y" / "全景对比
 
 **触发根因**:
 - 开发大师第 1 次对比搜客 vs 引客 → 只比 4 维度(文件/端点/配置/UI),漏平台维度
-- Pangu吼"对比搜客难道是单一平台吗?" → 暴露**调研类任务缺多维度 checklist**
-- → **本 SKILL 把"7 维度强制扫"工程化, 不再让Pangu校准**
+- user吼"对比搜客难道是单一平台吗?" → 暴露**调研类任务缺多维度 checklist**
+- → **本 SKILL 把"7 维度强制扫"工程化, 不再让user校准**
 
 → 这是反"我刚才需求很明确, 是你让我再选"的工程化兜底。
 
@@ -40,7 +40,7 @@ description: Pangu说"调研" / "调研一下" / "对比 X vs Y" / "全景对比
 ## 工作流(回报前 4 步)
 
 ### Step 1 · 触发词命中确认
-- Pangu指令含触发词? → 立即激活 7 维度
+- user指令含触发词? → 立即激活 7 维度
 - 不含但隐性是调研(如"了解一下 X")→ 仍激活(反保守)
 
 ### Step 2 · 7 维度初稿(全部填,允许"未涉"标注)

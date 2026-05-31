@@ -1,6 +1,6 @@
 ---
 name: 对齐
-description: 跨工具同步上下文。用户输入 "[对齐]" 时触发,让 AI 先吃完Pangu的项目背景、5 红线、踩过的坑,再回答。适用于新会话开启 / 新 AI 工具入场。 Use when: cross-tool context sync, new session start, load 5 red lines + project history.
+description: 跨工具同步上下文。用户输入 "[对齐]" 时触发,让 AI 先吃完user的项目背景、5 红线、踩过的坑,再回答。适用于新会话开启 / 新 AI 工具入场。 Use when: cross-tool context sync, new session start, load 5 red lines + project history.
 ---
 
 # 对齐 Skill
@@ -25,7 +25,7 @@ description: 跨工具同步上下文。用户输入 "[对齐]" 时触发,让 AI
 4. **已踩坑**:OpenHands / Dify / Coze / Hermes SaaS / 示例代养
 5. **工作偏好**:中文 / 简洁 / 真实可落地 / 不要套话
 
-输出前必须先告诉Pangu"你已对齐 1-5 哪几条"
+输出前必须先告诉user"你已对齐 1-5 哪几条"
 
 然后按以下结构回答:
 - 已对齐的事实(列点)
@@ -37,7 +37,7 @@ description: 跨工具同步上下文。用户输入 "[对齐]" 时触发,让 AI
 
 ## Gotchas
 
-1. **不要在没扫全 Mac 5 本前直接执行** — 会重复造轮子。Pangu 5 本(错误本 / 启发本 / 参谋本 / AI 成长本 / 个人本)在 `~/Desktop/📚 安的知识中枢/00-五本-跨项目共用/`,**触发"对齐"必先 grep 一遍**(2026-05-16 罪己录 教训)
+1. **不要在没扫全 Mac 5 本前直接执行** — 会重复造轮子。user 5 本(错误本 / 启发本 / 参谋本 / AI 成长本 / 个人本)在 `~/Desktop/📚 安的知识中枢/00-五本-跨项目共用/`,**触发"对齐"必先 grep 一遍**(2026-05-16 罪己录 教训)
 3. **不要造并行体系** — 任何"4 观 / 立魂 / 3 港湾"等新概念前,**必 grep your-tool `docs/knowledge-base/design-research/`**(5 观 / 十心 / 灵魂七层 / 15 文件 已有),继承不另造
 4. **不要在没读现有商业分析前推开源/闭源立场** — your-project 已定"核心闭源 + 展示层开源"双轨 CC BY-NC-ND 4.0
 

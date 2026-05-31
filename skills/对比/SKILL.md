@@ -1,6 +1,6 @@
 ---
 name: 对比
-description: Pangu说"X vs Y 对比" / "对比 X 和 Y" / "X 比 Y 怎么样" / "差距" / "比较"时, AI 自动跑双/多对象 7 维度并列扫 + 强制出"差距 + 启示 + 行动"。基于 2026-05-17 监督员诊断教训:开发第 1 次对比搜客 vs 引客只列特征不出差距 + 漏平台维度 → Pangu"对比难道是单一平台吗?"。 Use when: X vs Y comparison, gap analysis, 7-dimension parallel scan, comparative review.
+description: user说"X vs Y 对比" / "对比 X 和 Y" / "X 比 Y 怎么样" / "差距" / "比较"时, AI 自动跑双/多对象 7 维度并列扫 + 强制出"差距 + 启示 + 行动"。基于 2026-05-17 监督员诊断教训:开发第 1 次对比搜客 vs 引客只列特征不出差距 + 漏平台维度 → user"对比难道是单一平台吗?"。 Use when: X vs Y comparison, gap analysis, 7-dimension parallel scan, comparative review.
 ---
 
 # 对比(双/多对象同维度并列 + 差距 + 启示 + 行动)
@@ -13,7 +13,7 @@ description: Pangu说"X vs Y 对比" / "对比 X 和 Y" / "X 比 Y 怎么样" / 
 
 **触发根因**(2026-05-17 14:30 监督员诊断):
 - 开发"对比搜客 vs 引客"只列各自特征 + 漏平台维度 + 没出差距 + 没出行动
-- Pangu吼"对比难道是单一平台吗?"
+- user吼"对比难道是单一平台吗?"
 - → 本 SKILL 把"**对比 = 同维度并列 + 差距 + 启示 + 行动**"工程化
 
 ## 触发词(任一即触发)
@@ -42,7 +42,7 @@ description: Pangu说"X vs Y 对比" / "对比 X 和 Y" / "X 比 Y 怎么样" / 
 ## 工作流(回报前 5 步)
 
 ### Step 1 · 触发词命中确认
-- Pangu指令含触发词? → 立即激活 7 维度并列
+- user指令含触发词? → 立即激活 7 维度并列
 - 隐性"X 比 Y 哪个好" → 仍激活(反保守)
 
 ### Step 2 · 双对象同维度初稿(强制 7 维度,允许"未涉"标注)

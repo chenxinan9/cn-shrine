@@ -1,13 +1,13 @@
 ---
 name: 反AI通病自检
-description: 工具化预防 AI 通病(~ 9 大铁律 + 国际同源)。AI 回复前必跑 scripts/check.sh, 输入回复草稿, 输出通病关键词 + 对应 I-XXX 引用。Pangu 2026-05-17 04:00 钦定: "通病要预防, 不能以此为出错借口"。触发"[反AI通病自检]"或大任务回复前自动调用。 Use when: pre-output AI bias check, 9 fallacies prevention, big task verification.
+description: 工具化预防 AI 通病(~ 9 大铁律 + 国际同源)。AI 回复前必跑 scripts/check.sh, 输入回复草稿, 输出通病关键词 + 对应 I-XXX 引用。user 2026-05-17 04:00 钦定: "通病要预防, 不能以此为出错借口"。触发"[反AI通病自检]"或大任务回复前自动调用。 Use when: pre-output AI bias check, 9 fallacies prevention, big task verification.
 ---
 
 # 反 AI 通病自检(工具化预防 · 不当借口)
 
 ## 核心定位
 
-Pangu 2026-05-17 04:00 原话: "**自评高分应该反 AI 通病 / 通病要预防, 不能以此为出错借口**"
+user 2026-05-17 04:00 原话: "**自评高分应该反 AI 通病 / 通病要预防, 不能以此为出错借口**"
 
 → 通病不是借口, 工具化预防. 9 大类内置规则, 一行 bash 脚本扫 AI 草稿.
 
@@ -44,7 +44,7 @@ Step 4 · 三次为定律 检查:
 | 5 散问 > 3 个 | "?" 字符 > 3 | 补编 |
 | 6 拽英语 | dogfood / BLUF / MECE / deck | + § 三-bis.9 |
 | 7 跳模版(缺双刀)| 不含 "管家 SKILL 一刀.*参谋一刀" | / § 三-bis.5 |
-| 8 越权压清单 | "Pangu可拍板.*清单" / "3 决拍板" | |
+| 8 越权压清单 | "user可拍板.*清单" / "3 决拍板" | |
 | 9 中央交换机 | "大管家.*整合.*4 派" / "协奏收口" | |
 | 10 自宣闭环 | "闭环 ✅" / "自宣.*闭环" | |
 

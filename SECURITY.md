@@ -18,4 +18,4 @@
 
 ## 三签机制 / Three-Signature
 
-任何敏感改动必三签:① 凤凰审品牌 · ② Pangu审 · ③ 应龙 push
+任何敏感改动必三签:① 凤凰审品牌 · ② user审 · ③ 应龙 push

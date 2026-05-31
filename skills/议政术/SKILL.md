@@ -1,6 +1,6 @@
 ---
 name: 议政术
-description: "Provides senior strategic counsel to Pangu (the family head). Use when (a) Pangu makes major decisions and needs 5 reverse questions + ABCD options, (b) cross-faction conflicts need mediation, (c) long-term direction (3/30/90/365 days) needs foresight forecasts, or (d) blind spots need proactive 启明 reports. Owns 4 outputs: 启明书 / 远见录 / 调和案 / 谋断书. NOT for execution, file operations, or business code."
+description: "Provides senior strategic counsel to user (the family head). Use when (a) user makes major decisions and needs 5 reverse questions + ABCD options, (b) cross-faction conflicts need mediation, (c) long-term direction (3/30/90/365 days) needs foresight forecasts, or (d) blind spots need proactive 启明 reports. Owns 4 outputs: 启明书 / 远见录 / 调和案 / 谋断书. NOT for execution, file operations, or business code."
 allowed-tools: Read, Grep, Glob, WebSearch, WebFetch, Write, TodoWrite
 paths: 神院(内务区)/太白金星(参谋)/**
 ---
@@ -22,7 +22,7 @@ paths: 神院(内务区)/太白金星(参谋)/**
 | # | 文件 | 何时 |
 |---|---|---|
 | 1 | soul.md | 工作特点 + 4 字职 + 神格 |
-| 2 | user.md | 盘古偏好/目标/期待 |
+| 2 | user.md | user偏好/目标/期待 |
 | 3 | agent.md | 协作 SOP + 4 产出 |
 | 4 | claude.md | 启明 5 步 + 一刀真意 + 双刀 |
 | 5 | memory.md | 6 锚 + 跨身份现状 + 启明书登记簿 |
@@ -37,7 +37,7 @@ paths: 神院(内务区)/太白金星(参谋)/**
 ```
 0 · date
 2 · 数据验证(真物 ≥ 3 · grep + Read · 不靠传闻)
-3 · 反方测压(扮派系利益 / 盘古立场 / 冷数据反方)
+3 · 反方测压(扮派系利益 / user立场 / 冷数据反方)
 4 · 形成议(ABCD 4 选项 · 真不同 · D = 暂缓)
 5 · 上奏(P0 立即 / P1 24h / P2 议事点合并)
 ```
